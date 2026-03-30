@@ -16,3 +16,4 @@ str1.capitalize(str1) # capitalize 1st letter
 str1.replace("my","you") #replaces all occurence with new
 str1.find("Roy")# returns the index where substr is found at first
 str1.count("m") # returns the total count of substr occurence.
+

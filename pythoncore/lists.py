@@ -27,3 +27,12 @@ marks.reverse()# reverses a list
 marks.insert(1,10) # inserts 10 at index 1
 marks.remove(1)# removes the 1st occurence of element
 marks.pop(2)# removes element from a index
+
+# INPUT FROM USER USING LOOPS
+list_movies=[]
+for i in range (3): 
+    movie=input("Enter your favourite movies")
+    list_movies.append(movie)
+
+print(list_movies)
+print(type(list_movies))
