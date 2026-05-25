@@ -1,4 +1,4 @@
-n=int(input("enter num"))
+n =int(input("enter num"))
 num=n
 new=0
 while num>0: 

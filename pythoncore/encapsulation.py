@@ -16,7 +16,7 @@ class bank:
         return True
 
     def deposit(self,amount: int):
-        if self.__is_serverlive()== True :
+        if self.__is_serverlive() is True :
             self.__balance += amount
             print(f"Amount desposited {amount},Balance : {self.__balance} ")
     def withdrawl(self,amount: int):
@@ -28,5 +28,5 @@ class bank:
 
 acc=bank("arnab",5000)
 acc.deposit(1000)
-acc.balance=100000 # not affect after private attribute __balance from balance
+# acc.balance=100000  # not affect after private attribute __balance from balance
 acc.withdrawl(1999)

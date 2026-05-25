@@ -1,4 +1,5 @@
-# STORS DATA IN KEY VALUE PAIRS / mutable and unordered and duplicate keys not allowed key can be any data type
+# # # STORS DATA IN KEY VALUE PAIRS / mutable and unordered and duplicate keys not allowed key can be any data type 
+# # #
 dict1 = {
     "name":"arnab",
     "age":21,
